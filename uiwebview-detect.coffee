@@ -5,6 +5,8 @@
 #   UIWebViewDetector = new UIWebViewDetect()
 #   UIWebViewDetector.isUIWebView()
 class UIWebViewDetect
+
+  # Hat tip: http://stackoverflow.com/questions/4460205/detect-ipad-iphone-webview-via-javascript
   regex: /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i
 
   # Public: creates a new instance of UIWebViewDetect
