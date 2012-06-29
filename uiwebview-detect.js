@@ -20,7 +20,9 @@
 
   })();
 
-  window.UIWebViewDetector = new UIWebViewDetect();
+  $(function() {
+    return window.UIWebViewDetector = new UIWebViewDetect();
+  });
 
   $.isUIWebView = function() {
     return UIWebViewDetector.isUIWebView();

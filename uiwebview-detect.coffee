@@ -25,7 +25,8 @@ class UIWebViewDetect
     @regex.test navigator.userAgent
 
 # Attach an instance of UIWebViewDetect to the DOM
-window.UIWebViewDetector = new UIWebViewDetect()
+$ ->
+  window.UIWebViewDetector = new UIWebViewDetect()
 
 # jQuery / Zepto convenience method
 $.isUIWebView = ->
