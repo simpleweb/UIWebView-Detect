@@ -10,3 +10,4 @@ If a UIWebView is detected a CSS class of `uiwebview` will be added to the `<htm
 
 You can also call `UIWebViewDetector.isUIWebView()` in your JavaScript (returns a Boolean)
 
+Copyright 2012 Simpleweb Ltd
