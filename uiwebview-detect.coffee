@@ -10,6 +10,5 @@ class UIWebViewDetect
 
 window.UIWebViewDetector = new UIWebViewDetect()
 
-if $?
-  $.isUIWebView = ->
-    UIWebViewDetector.isUIWebView()
+$.isUIWebView = ->
+  UIWebViewDetector.isUIWebView()
