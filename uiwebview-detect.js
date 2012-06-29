@@ -22,10 +22,8 @@
 
   window.UIWebViewDetector = new UIWebViewDetect();
 
-  if (typeof $ !== "undefined" && $ !== null) {
-    $.isUIWebView = function() {
-      return UIWebViewDetector.isUIWebView();
-    };
-  }
+  $.isUIWebView = function() {
+    return UIWebViewDetector.isUIWebView();
+  };
 
 }).call(this);
